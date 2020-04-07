@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .config-basica {
+        background-color: #0066aa;
+        border: solid 4px #ff0000;
+        margin: 2.7px 0;
+        color: white;
+        width: inherit;
+        box-sizing: border-box;
+    }
+    
+    div > h2, h3, li {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .geral > header {
+        height: 35.7%;
+        text-align: center;
+    }
+
+    .geral > footer {
+        height: 18.1%;
+        margin-top: 6px !important;
+        text-align: center;
+    }
+
+    main {
+        border-color: black !important;
+        background-color: white !important;
+        color: black !important;
+        flex: 3;
+    }
+
+    nav {
+        width: 33.1% !important;
+        margin-right: 5.4px !important;
+        flex: 1;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .geral {
+        display: flex;
+        flex-direction: column;
+        background-color: #cdf0ff;
+        border: solid 2px #0066aa;
+        height: 100vh;
+        padding: 0.5% 10% 0.5% 10%;
+    }
+</style>
+<body>
+    <div class="geral" style="height: 522px; width: 621px;">
+        <header class="config-basica">
+            <div style="padding: 5%;">
+                <h2>Cabeçalho da página</h2>
+            </div>
+        </header>
+        <div class="flex" style="width: inherit; height: inherit; margin: 0px;" >
+            <nav class="config-basica">
+                <div style="padding: 0px 10%;">
+                    <h2>Menu de navegação</h2>
+                </div>
+            </nav>
+            <main class="config-basica">
+                <div style="padding: 0 2%;">
+                    <h2 style="margin-bottom: 6%;">Conteúdo principal</h2>
+                    <h3 style="font-weight: normal">Cores:</h3>
+                    <ul>
+                        <li>#0066aa (tom de azul escuro)</li>
+                        <li>#cdf0ff (tom de azul claro)</li>
+                        <li>#ff0000 (vermelho)</li>
+                        <li>#000000 (preto)</li>
+                        <li>#ffffff (branco)</li>
+                    </ul>
+                </div>
+            </main>
+        </div>
+        <footer class="config-basica">
+            <div style="padding: 1% 0;">
+                <h2>Rodapé da página</h2>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
