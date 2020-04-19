@@ -1,0 +1,105 @@
+body {
+    margin: 0px !important;
+}
+
+#MenuNav {
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+    justify-content: space-around;
+    background-color: #352bcc;
+    margin: 0px !important;
+    color: white;
+}
+
+#MenuNav li {
+    display: block;
+    padding-left: 5px;
+    width: 33.3%;
+}
+
+ul {
+    padding: 0px !important;
+    justify-content: center;
+}
+
+#MenuNav li ul {
+    display: none;
+}
+
+#MenuNav li ul li {
+    margin-left: 5px;
+}
+
+#MenuNav li:hover {
+    cursor: pointer !important;
+    color: black;
+    background-color: #3f91d8;
+}
+
+#MenuNav li:hover ul {
+    display: block;
+    cursor: pointer !important;
+    background-color: #3f91d8;
+}
+
+#MenuNav li:hover ul li:hover {
+    color: #352bcc;
+}
+
+#MenuMain {
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+    justify-content: space-evenly;
+    height: 50px;
+    list-style: none;
+}
+
+#MenuMain li img:hover {
+    border: solid 10px red;
+}
+
+ul h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: blue;
+    font-weight: normal !important;
+}
+ 
+ul h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: blue;
+    font-weight: bold;
+}
+
+#MenuFilmes {
+    list-style: none;
+}
+
+#MenuFilmes li {
+    margin-left: 30px;
+}
+
+#MenuFilmes li ul li {
+    margin-left: 50px;
+}
+
+Form { 
+    width: 100%;
+    height: 10%;
+    margin: 15px;
+}
+
+Form input {
+    margin-left: 2px;
+    margin-right: 20px;
+    width: 10%;
+}
+
+#EnviarForm2 {
+    background-color: #ff00007a;
+    border-radius: 25px;
+    width: 100px;
+}
