@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trab 2 Prog III</title>
+</head>
+<script src="Funcoes.js"></script>
+<link href="Estilo.css" rel="stylesheet"/>
+<body onload="CriarFilmes(document.getElementById('MenuFilmes'))">
+    <nav>
+        <ul id="MenuNav">
+          <li><h3>Institucional</h3>
+            <ul>
+              <li>Localização</li>
+              <li>Estrutura</li>
+            </ul>
+          </li>
+          <li><h3>Produtos</h3>
+            <ul>
+              <li>Notebooks</li>
+              <li>Celulares</li>
+              <li>Eletrodomésticos</li>
+            </ul>
+          </li>
+          <li><h3>Sobre</h3>
+            <ul>
+              <li>Contato</li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <main>
+        <ul id="MenuMain">
+          <li><img src="https://i.pinimg.com/originals/e4/34/2a/e4342a4e0e968344b75cf50cf1936c09.jpg" width="150px" /></li>
+          <li><img src="https://i.pinimg.com/564x/33/63/e2/3363e298e9e1e4ccfc9759483ae7ea12.jpg" width="150px" /></li>
+          <li><img src="https://i1.wp.com/camminanelsole.com/wp-content/uploads/2019/06/New-Moon-Fantasy.jpg?ssl=1" width="350px" /></li>
+          <li><img src="https://i.pinimg.com/236x/54/65/50/54655041ca1fa3a9831110d410cc56d4--anime-wolf-wolves-art.jpg" width="200px" /></li>
+          <li><img src="https://www.hypeness.com.br/wp-content/uploads/2018/12/imagens-surreais.jpg" width="250px" /></li>
+          <li><img src="https://www.imagensparawhats.club/wp-content/uploads/2019/09/imagens-de-rei-le%C3%A3o-9.jpg" width="250px" /></li>
+        </ul>
+        <div style="height: 100%; width: 100%; margin-top: 250px;">
+          <button onclick="CriarListaNaoOrdenada(['teste1', 'teste2', 'teste3'], this.parentElement)">
+            Criar tabela por JS
+          </button>
+        </div>
+        <div style="height: 100%; width: 100%; margin-top: 150px;">
+          <ul id="MenuFilmes"></ul>
+        </div>
+        <form onsubmit="enviarForm()">
+          <label>número 1</label>
+          <input type="text" id="N1"/>
+          <label>número 2</label>
+          <input type="text" id="N2"/>
+          <label>número 3</label>
+          <input type="text" id="N3"/>
+          <input type="submit" value="Enviar"/>
+        </form>
+        <form onsubmit="calcularFat()">
+          <label>número para cálculo de fatorial</label>
+          <input type="text" id="NFat" />
+          <input id="EnviarForm2" type="submit" value"Enviar"/>
+        </form>
+      </main>
+</body>
+</html>
