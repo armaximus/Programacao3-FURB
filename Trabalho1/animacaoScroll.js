@@ -1,3 +1,34 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@armaximus 
+armaximus
+/
+Programacao3-FURB
+1
+0
+0
+ Code
+ Issues 0
+ Pull requests 0 Actions
+ Projects 0
+ Wiki
+ Security 0
+ Insights
+ Settings
+Programacao3-FURB/Trabalho1/animacaoScroll.js /
+@armaximus armaximus Update animacaoScroll.js
+fd5fade 30 seconds ago
+80 lines (61 sloc)  2.6 KB
+  
+Code navigation is available!
+Navigate your code with ease. Click on function and method calls to jump to their definitions or references in the same repository. Learn more
+
 (function() {
 
     let $target = $('.animacao'),
