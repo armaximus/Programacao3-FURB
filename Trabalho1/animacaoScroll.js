@@ -52,7 +52,7 @@
                 } else {
                     if ($(this).hasClass('produtosIdentacaoEntreSi')) {
                         let icone = document.getElementById('loginico');
-                        icone.src = 'imagens/personwhite.png';
+                        icone.src = 'imagens/personWhite.png';
                     }
                     $('nav')[0].style.background = 'transparent';
                 }
